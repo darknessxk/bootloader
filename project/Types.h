@@ -4,7 +4,7 @@
 typedef unsigned char   byte;
 typedef unsigned short  word;
 typedef unsigned long   dword;
-typedef char            bool;
+typedef char            byte;
 
 #define true            0x1
 #define false           0x0
