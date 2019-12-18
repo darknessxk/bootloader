@@ -6,12 +6,9 @@ Microsoft Compilers
 VMware Workstation and VirtuaBox intended to testing bootloader
 
 ### Build 
-```cl.exe /AT /G2 /Gs /Gx /c /Zl *.cpp
-ml.exe /AT /c *.asm
-
-link.exe /T /NOD *.obj
-
-del *.obj
+```
+nasm -f elf32 boot.asm -o build/boot.o
+gcc-g++ -m64 kmain.cpp build/boot.o -o output/kernel.bin -nostdlib -ffreestanding -std=c++11 -mno-red-zone -fno-exceptions -nostdlib -fno-rtti -Wall -Wextra -Werror -T linker.ld
 ```
 
 ### Milestone
