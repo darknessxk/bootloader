@@ -1,9 +1,9 @@
 # Bootloader
 
-### Tools
-Visual Studio Code/ CLion
-Microsoft Compilers
-VMware Workstation and VirtuaBox intended to testing bootloader
+### Toolchain
+GCC and Nasm
+
+QEMU, VMware Workstation and VirtuaBox intended to testing bootloader
 
 ### Build 
 ```
