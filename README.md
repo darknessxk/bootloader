@@ -1,4 +1,7 @@
-# Bootloader
+# Bootloader ----- TARGET PROJECT
+
+## META
+Rewrite all my bootloader stuff to an UEFI version
 
 ### Toolchain
 GCC and Nasm
